@@ -30,7 +30,9 @@ from sklearn.metrics import roc_curve, auc
 from imblearn.over_sampling import SMOTE
 import pandas as pd
 import numpy as np
+
 from collections import Counter
+
 
 
 train_data = pd.read_csv('AAC.txt', sep=',', header=None)
